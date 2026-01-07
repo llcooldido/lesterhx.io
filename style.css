@@ -123,7 +123,7 @@ input:checked + .slider::before { transform:translateX(22px); }
 
 /* AVATAR */
 .avatar{text-align:center;}
-.avatar img{width:140px;height:140px;border-radius:50%;border:3px solid rgba(255,255,255,0.1);margin-bottom:16px;}
+.avatar img{width:170px;height:140px;border-radius:2%;border:2px solid rgba(255,255,255,0.1);margin-bottom:16px;}
 .avatar h3{font-size:26px;margin-bottom:6px;}
 
 /* TAGS */
