@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lester | IT Portfolio</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOP NAVIGATION -->
+  <header class="top-nav">
+    <div class="nav-logo">LesterHx</div>
+
+    <nav class="nav-links">
+      <a href="index.html#home">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <a href="#contact" class="nav-cta">Let’s Talk</a>
+
+      <!-- DARK MODE TOGGLE -->
+    <!--  <div class="dark-mode-toggle">
+        <label class="switch">
+          <input type="checkbox" id="darkModeSwitch" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>-->
+  </header>
+
+  <main class="dashboard" id="home">
+
+    <!-- PROFILE -->
+    <section class="card avatar span-4">
+      <img src="img/123.jpg" alt="Lester Avatar" />
+      <h3>Lester</h3>
+      <p>Aspiring IT Professional</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="card about span-4" id="about">
+      <h4>About Me</h4>
+      <p>
+        Aspiring IT professional with experience in Helpdesk and NOC support.
+        Skilled in troubleshooting, system monitoring, and basic networking.
+        Focused on reliability, documentation, and user support.
+      </p>
+    </section>
+
+    <!-- EXPERIENCE TABS -->
+    <section class="card tabs span-4">
+      <h4>Expertise</h4>
+
+      <nav class="tabs-nav">
+        <button class="tab-btn active" data-tab="experience">Experience</button>
+        <button class="tab-btn" data-tab="support">Support</button>
+        <button class="tab-btn" data-tab="networking">Networking</button>
+      </nav>
+
+      <div class="tab-content active" id="experience">
+        <ul>
+          <li>NOC Support – 1 Year</li>
+          <li>Helpdesk Support – 1 Year & 1 month</li>
+          <li>UI/UX Design – Internship (600hrs)</li>
+        </ul>
+      </div>
+
+      <div class="tab-content" id="support">
+        <ul>
+          <li>Hardware & Software Troubleshooting</li>
+          <li>Ticketing Systems (Jira, Zendesk)</li>
+          <li>User Account Management</li>
+        </ul>
+      </div>
+
+      <div class="tab-content" id="networking">
+        <ul>
+          <li>TCP/IP & DNS</li>
+          <li>LAN / WAN</li>
+          <li>Network Monitoring</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="card skills span-3">
+      <h4>Skills</h4>
+      <div class="tags">
+        <span>IT Troubleshooting</span>
+        <span>System Monitoring</span>
+        <span>Networking</span>
+        <span>User Support</span>
+      </div>
+    </section>
+
+    <!-- SYSTEMS -->
+    <section class="card systems span-3">
+      <h4>Systems</h4>
+      <div class="tags">
+        <span>Windows</span>
+        <span>Linux</span>
+        <span>Active Directory</span>
+        <span>Microsoft 365</span>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="card certifications span-3">
+      <h4>Certifications</h4>
+      <ul>
+        <li>CCNA (Planned)</li>
+        <li>Azure (Planned)</li>
+      </ul>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="card tools span-3">
+      <h4>Tools</h4>
+      <div class="tags">
+        <span>Figma</span>
+        <span>AnyDesk</span>
+        <span>TeamViewer</span>
+        <span>Mikrotik</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="card projects span-6" id="projects">
+      <h4>Projects</h4>
+      <ul>
+        <li>Small office network setup using Mikrotik & monitoring tools</li>
+        <li>Helpdesk ticket system improvement</li>
+        <li>UI/UX redesign for an internal web app</li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="card education span-3">
+      <h4>Education</h4>
+      <p>Information Technology / Web & Mobile Development</p>
+    </section>
+
+    <!-- AVAILABILITY -->
+    <section class="card availability span-3">
+      <h4>Availability</h4>
+      <p>Open to Junior NOC Engineer & IT roles</p>
+    </section>
+
+    <!-- CONTACT / LINKS -->
+    <section class="card links span-12" id="contact">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+      <a href="#">Resume</a>
+    </section>
+
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
